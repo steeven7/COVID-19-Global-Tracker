@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/4d9e77049c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Global COVID-19 Statistics</title>
+</head>
+<body>
+  <div class="container">
+<div class="card bg-light mb-3">
+  <div class="card-header">Global Covid-19 Statistics</div>
+  <div class="card-body">
+    <div class="card">
+        <div class="card-header" id ="update">Last Updated: <span id="updateData"></span></div>
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" id = "confirm"><span class ="icons"><i class="fas fa-user-friends fa-3x"></i></span><h5>Confirmed Cases</h5> <span id="confirmData"></span></li>
+    <li class="list-group-item" id = "recover"><span class ="icons"><i class="fas fa-check-circle fa-3x"></i></span><h5>Recovered</h5><span id="recoverData"></span></li>
+    <li class="list-group-item" id = "critical"><span class ="icons"><i class="fas fa-bed fa-3x"></i></span><h5>Critical Cases</h5> <span id="criticalData"></span></li>
+    <li class="list-group-item" id = "deaths"><span class ="icons"><i class="fas fa-heart-broken fa-3x"></i></span><h5>Total Deaths</h5> <span id="deathsData"></span></li>
+  </ul>
+
+</div>
+<p id = "info">Information provided by RapidApi's <a href="https://rapidapi.com/Gramzivi/api/covid-19-data">Covid-19 Data</a>
+ </p>
+</div>
+  
+</div>
+
+</div>
+</body>
+<script src="app.js"></script>
+</html>
