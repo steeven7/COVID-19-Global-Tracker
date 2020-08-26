@@ -1,6 +1,8 @@
 # COVID-19-Global-Tracker-
 Track the global statistics of COVID-19
 
+<img src="preview_img.jpg">
+
 ## Built With 
 - Bootstrap - https://getbootstrap.com
 - Font Awesome - https://fontawesome.com
